@@ -5,9 +5,9 @@ services:
     image: kerensekali/clonebot:latest
     container_name: clonebot
     environment:
-      - telegram_token=${telegram_token}
-      - user_ids=${user_ids}
-      - group_ids=${group_ids}
+      - telegram_token=${5351816125:AAHJf8d9vT_hEQzZ4D2mQopkrqNk9ItnS80}
+      - user_ids=${1937215328}
+      - group_ids=${-1001510312836}
       - PORT=8080
     ports:
       - 8080:8080
